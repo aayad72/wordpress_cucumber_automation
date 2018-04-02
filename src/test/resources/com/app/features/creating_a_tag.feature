@@ -1,1 +1,1 @@
-Feature: adding a tag
+Feature: editing a tag

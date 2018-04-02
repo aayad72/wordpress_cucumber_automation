@@ -11,13 +11,13 @@ Feature: Editing the menu
     When I logged into WordPress
     And I click on Appearance/Menu
     Then add new menu to the page
-    And the new theme should displayed
+    And the new menu should displayed
     Then I logout from application
     
     Scenario: add custom links to menu
      When I logged into WordPress
     And I click on Appearance/CustomLink
-    Then add new menu to the page
-    And the new theme should displayed
+    Then add new cutom Link to the menu
+    And the new link should displayed
     Then I logout from application
     

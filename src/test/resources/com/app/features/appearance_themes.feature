@@ -7,4 +7,9 @@ Feature: Changing Appearamce
     And the new theme should displayed
     Then I logout from application
 
-Scenario: add new theme
+  Scenario: add new theme
+    When I logged into WordPress
+    And I click on Appearance/themes
+    Then add new theme
+    And the new theme should displayed
+    Then I logout from application

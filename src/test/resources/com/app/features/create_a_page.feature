@@ -7,7 +7,7 @@ Feature: ADD NEW  Page
     And Set title as "First Page"
     And Set Text as "Whatever we want"
     And Click publish
-    Then Then the post should be displayed
+    Then the post should be displayed
     And the data post should match with created post data
     Then I logout from application
     
@@ -19,6 +19,6 @@ Feature: ADD NEW  Page
     And Set title as "First Post"
     And Set Text as "Whatever we want"
     And Click publish
-    Then Then the post should be displayed
+    Then the post should be displayed
     And the data post should match with created post data
     Then I logout from application

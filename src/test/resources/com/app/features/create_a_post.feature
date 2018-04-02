@@ -6,7 +6,7 @@ Feature: ADD NEW Post
     When I click on Posts
     And Set title as "First Post"
     And Set Text as "Whatever we want"
-    And Click publish
+    And I click publish
     Then the post should be displayed
     And the data post should match with created post data
     Then I logout from application
@@ -14,9 +14,9 @@ Feature: ADD NEW Post
   @taskcreation
   Scenario: creating a post with Media
     Given I logged into WordPress
-    When I click on Posts
+    When I click on Posts 
     And Add media from media library to the post
-    And Click publish
+    And I click publish
     Then the post should be displayed
     And the data post should match with created post data
     Then I logout from application
