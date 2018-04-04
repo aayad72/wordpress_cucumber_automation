@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the title of the landing page should be &quot;Dashboard  Cybertek&#x27;s Blog!  WordPress&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the expected url should be &quot;http:&#x2F;&#x2F;34.223.219.142:1022&#x2F;wordpress&#x2F;wp-admin&#x2F;&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I create a page (PASSED : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I publish the page (PASSED : 28s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the page should be displayed (PASSED : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I create a post (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I publish the page (PASSED : 28s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the post should be displayed (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="137686" started-at="2018-04-04T13:14:12Z" finished-at="2018-04-04T13:16:29Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="137686" started-at="2018-04-04T13:14:12Z" finished-at="2018-04-04T13:16:29Z">
+      <class name="com.app.runners.CukesRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="setUpClass" is-config="true" duration-ms="263" started-at="2018-04-04T13:14:12Z" finished-at="2018-04-04T13:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" duration-ms="8584" started-at="2018-04-04T13:14:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T13:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["AUT up and running"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Smoke Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the title of the landing page should be &quot;Dashboard  Cybertek&#x27;s Blog!  WordPress&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the expected url should be &quot;http:&#x2F;&#x2F;34.223.219.142:1022&#x2F;wordpress&#x2F;wp-admin&#x2F;&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" duration-ms="71688" started-at="2018-04-04T13:14:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T13:15:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["test main functionnality creating a page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Smoke Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I create a page (PASSED : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I publish the page (PASSED : 28s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the page should be displayed (PASSED : 11s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" duration-ms="56982" started-at="2018-04-04T13:15:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T13:16:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["test main functionnality creating a post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Smoke Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I create a post (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I publish the page (PASSED : 28s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the post should be displayed (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="tearDownClass" is-config="true" duration-ms="85" started-at="2018-04-04T13:16:29Z" finished-at="2018-04-04T13:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.app.runners.CukesRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
