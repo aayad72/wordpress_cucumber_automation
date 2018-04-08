@@ -56,17 +56,23 @@ public class WordPressDashboardPage {
 
 	@FindBy(xpath = "//div[@class='post-content']//p")
 	public WebElement textBodyInCreatedPage;
+	
+	@FindBy(xpath="//a[@href='user-new.php']")
+	public WebElement addNewUser;
+	
+	@FindBy(id="user_login")
+	public WebElement username;
 
 	public void logout() {
 		Actions action = new Actions(driver);
 		action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Howdy')]")));
-		BrowserUtils.waitForVisibility(driver.findElement(By.xpath("//a[contains(text(),'Howdy')]")), 50);
+		BrowserUtils.waitForVisibility(driver.findElement(By.xpath("//a[contains(text(),'Howdy')]")), 30);
 		action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Log Out')]"))).perform();
 
 	}
 
 	/*
-	 * This method allows you to click on submenu of the left of the dashboard ,
+	 * This method allows you to click on submenu on the left of the dashboard ,
 	 * just choose which SubMenu you want Ex : Posts Pages Media Appearance....or
 	 * Settings
 	 */

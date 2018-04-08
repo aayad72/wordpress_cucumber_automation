@@ -2,7 +2,7 @@ Feature: Creating Users
 
   Background: 
     Given I logged into WordPress
-
+@beans
   Scenario Outline: Create way more contacts
     When I add a new user:
       | username   | email   | password   |
