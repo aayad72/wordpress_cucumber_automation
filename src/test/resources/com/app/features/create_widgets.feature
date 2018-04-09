@@ -1,6 +1,6 @@
 Feature: Add Widgets
 
-  @functional @regression @smoke @taskcreation
+  @functional @regression @taskcreation
   Scenario: Create Calendar
     
 

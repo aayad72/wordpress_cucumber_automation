@@ -35,7 +35,7 @@ public class WordPressDashboardPage {
 	@FindBy(id = "title")
 	public WebElement titlePage;
 
-	@FindBy(xpath = "//textarea[@class='wp-editor-area'][@id='content']")
+	@FindBy(id ="tinymce")
 	public WebElement textField;
 
 	public WebElement publish;
@@ -62,6 +62,25 @@ public class WordPressDashboardPage {
 	
 	@FindBy(id="user_login")
 	public WebElement username;
+	
+	public WebElement email;
+	
+	@FindBy(xpath="//button[@class='button wp-generate-pw hide-if-no-js']")
+	public WebElement showPassword;
+	
+	@FindBy(id="pass1-text")
+	public WebElement passwordField;
+	
+	@FindBy(id="createusersub")
+	public WebElement createNewUser;
+	
+	@FindBy(xpath="//input[@class='pw-checkbox']")
+	public WebElement confirmUseWeakPass;
+	
+	public WebElement send_user_notification;
+	
+	@FindBy(id="content_ifr")
+	public WebElement frame;
 
 	public void logout() {
 		Actions action = new Actions(driver);

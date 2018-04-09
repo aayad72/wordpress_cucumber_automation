@@ -52,8 +52,10 @@ public class SmokeTestStepsDefinition {
 		BrowserUtils.waitFor(5);
 		dashboard.addNewPage.click();
 		dashboard.titlePage.sendKeys("SmokeTestPage");
+		Driver.getDriver().switchTo().frame(dashboard.frame);
 		dashboard.textField
 				.sendKeys("this testing is used to decide if a build is stable enough to proceed with further testing");
+		Driver.getDriver().switchTo().parentFrame();
 	}
 
 	@When("^I publish the page$")
@@ -84,8 +86,9 @@ public class SmokeTestStepsDefinition {
 		dashboard.ClickOnDashboardMenu("Posts");
 		dashboard.addNewPost.click();
 		dashboard.postTitle.sendKeys("SmokeTestPost");
-		dashboard.textField
-				.sendKeys("this testing is used to decide if a build is stable enough to proceed with further testing");
+		Driver.getDriver().switchTo().frame(dashboard.frame);
+		dashboard.textField.sendKeys("this testing is used to decide if a build is stable enough to proceed with further testing");
+		Driver.getDriver().switchTo().parentFrame();
 	}
 
 	@Then("^the post should be displayed$")

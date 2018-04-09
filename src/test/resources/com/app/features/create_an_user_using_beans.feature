@@ -1,9 +1,8 @@
+@beans
 Feature: Creating Users
 
-  Background: 
-    Given I logged into WordPress
-@beans
   Scenario Outline: Create way more contacts
+    Given I logged into WordPress
     When I add a new user:
       | username   | email   | password   |
       | <username> | <email> | <password> |
