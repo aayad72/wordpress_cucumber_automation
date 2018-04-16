@@ -1,9 +1,31 @@
+@widgets
 Feature: Add Widgets
 
-  @functional @regression @taskcreation
-  Scenario: Create Calendar
-    
+  Background: 
+    Given I logged into WordPress
 
-  @taskcreation
-  Scenario: add video
-   
+  Scenario: Create Calendar using Pages
+    And I create a new page
+    Then Set title as "Tech 17 Calendar"
+    Then I click on Page Builder
+    Then I add Calendar Widget
+    Then Publish Calendar Page
+    Then the Calendar should be displayed in Page
+    Then I logout from application
+
+  Scenario: Add Image Gall
+    And I create a new page
+    And Set page title as "Tech 17 Team"
+    Then I click on Page Builder
+    Then I add Gallery widgets
+    Then Set title "Meet My Team"
+    Then Add on Images
+    Then Publish images in gallery
+    And Gallery images should be displayed
+    Then I logout from application
+
+  #Scenario: Delete Pages
+    #And I click on Pages
+    #Then Delete Page"Tech 17 Calendar"
+    #And Delete the other "Tech 17 Team"
+    #Then I logout from application

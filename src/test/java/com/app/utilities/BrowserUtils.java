@@ -22,6 +22,16 @@ public class BrowserUtils {
 		Actions actions = new Actions(Driver.getDriver());
 		actions.moveToElement(element).perform();
 	}
+	
+	public static void scrollUp() {
+		JavascriptExecutor jse = (JavascriptExecutor)Driver.getDriver(); 
+		jse.executeScript("scroll(0, -250);");
+	}
+	
+	public static void scrollDown() {
+		JavascriptExecutor jse = (JavascriptExecutor)Driver.getDriver(); 
+		jse.executeScript("scroll(0, 250);");
+	}
 	/**
 	 * return a list of string from a list of elements
 	 * ignores any element with no text
