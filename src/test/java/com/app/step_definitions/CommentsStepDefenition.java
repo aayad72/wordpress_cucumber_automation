@@ -24,6 +24,7 @@ public class CommentsStepDefenition {
 		dashboard.ClickOnDashboardMenu("Comments");
 		assertEquals(comment.textComment.getText(), "Comments", "Page text Comment is not matching");
 		assertTrue(driver.getTitle().contains("Comments"), "Title is not matching");
+		
 	}
 
 	@When("^i click on \"([^\"]*)\"$")

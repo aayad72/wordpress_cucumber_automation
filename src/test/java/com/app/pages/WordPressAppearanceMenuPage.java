@@ -17,7 +17,7 @@ public class WordPressAppearanceMenuPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "(//div[@class='wp-menu-name'])[6]")
+	@FindBy(xpath ="(//div[@class='wp-menu-name'])[6]")
 	public WebElement appearance;
 
 	@FindBy(xpath = "//a[@href='nav-menus.php']")

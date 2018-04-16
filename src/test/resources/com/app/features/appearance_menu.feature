@@ -1,23 +1,23 @@
-Feature: Editing the menu
+Feature: Editing the menus
 
-  Scenario: add to menu to the page
+  Scenario: Adding new page to menu
     When I logged into WordPress
-    And I click on Appearance/Menu
-    Then add new menu to the page
-    And the new theme should displayed
+    And I click on Appearance/Menus
+    Then I click on "Custom Links"
+    Then the new menu item should be displayed in Menu Structure
     Then I logout from application
 
-  Scenario: Scenario: add to menu to post
+  @test
+  Scenario: Adding new page to menu
     When I logged into WordPress
-    And I click on Appearance/Menu
-    Then add new menu to the page
-    And the new menu should displayed
+    And I click on Appearance/Menus
+    Then I create "Posts" click on check box
+    Then the new menu item should be displayed in Menu Structure
     Then I logout from application
-    
-    Scenario: add custom links to menu
-     When I logged into WordPress
-    And I click on Appearance/CustomLink
-    Then add new cutom Link to the menu
-    And the new link should displayed
+
+  Scenario: Adding new page to menu
+    When I logged into WordPress
+    And I click on Appearance/Menus
+    Then I am creating "Pages" click on Smoke Test check box
+    Then the new menu item should be displayed in Menu Structure
     Then I logout from application
-    

@@ -31,6 +31,7 @@ public class AppearanceMenusStepDefenition {
 		menuPage.url.sendKeys("www.google.com");
 		menuPage.linkText.sendKeys("GOOGLE HELPER");
 		menuPage.linkAddToMenu.click();
+		
 	}
 
 	@Then("^the new menu item should be displayed in Menu Structure$")

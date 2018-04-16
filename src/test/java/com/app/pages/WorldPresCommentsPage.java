@@ -19,7 +19,7 @@ public class WorldPresCommentsPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//h1[@class='wp-heading-inline']")
+	@FindBy(xpath ="//h1[@class='wp-heading-inline']")
 	public WebElement textComment;
 
 	@FindBy(xpath = "//span[@class='all-count']")
