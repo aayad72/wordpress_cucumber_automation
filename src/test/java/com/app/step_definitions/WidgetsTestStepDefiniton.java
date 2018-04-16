@@ -28,18 +28,23 @@ public class WidgetsTestStepDefiniton {
 	public void i_create_a_new_page() {
 		widgets.pages.click();
 		BrowserUtils.waitFor(5);
-		widgets.addNewPage.click();
+
 
 	}
 
 	@Then("^Set title as \"([^\"]*)\"$")
 	public void set_title_as(String arg1) {
+		widgets.addNewPage.click();
+		
+		BrowserUtils.waitFor(5);
+		widgets.addNewPage.click();
 		widgets.titlePage.sendKeys("Tech 17 Calendar");
 		BrowserUtils.waitFor(5);
 	}
 
 	@Then("^I click on Page Builder$")
 	public void i_click_on_Page_Builder() {
+		BrowserUtils.waitFor(15);
 		widgets.pageBuilder.click();
 		BrowserUtils.waitFor(7);
 
@@ -154,21 +159,5 @@ public class WidgetsTestStepDefiniton {
 
 	}
 
-	@Given("^I click on Pages$")
-	public void i_click_on_Pages() {
-		widgets.pages.click();
-		BrowserUtils.waitFor(5);
-	}
 
-	@Then("^Delete Page\"([^\"]*)\"$")
-	public void delete_Page(String title) {
-		BrowserUtils.scrollDown();
-		widgets.deletePage(title,"Trash");
-	}
-
-	@Then("^Delete the other \"([^\"]*)\"$")
-	public void delete_the_other(String title) {
-		widgets.deletePage(title,"Trash");
-
-	}
 }

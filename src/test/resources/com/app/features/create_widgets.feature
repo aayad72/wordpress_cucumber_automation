@@ -1,4 +1,4 @@
-@widgets
+@husna
 Feature: Add Widgets
 
   Background: 
@@ -15,7 +15,7 @@ Feature: Add Widgets
 
   Scenario: Add Image Gall
     And I create a new page
-    And Set page title as "Tech 17 Team"
+    Then Set title as "Tech 17 Team"
     Then I click on Page Builder
     Then I add Gallery widgets
     Then Set title "Meet My Team"
@@ -24,8 +24,4 @@ Feature: Add Widgets
     And Gallery images should be displayed
     Then I logout from application
 
-  #Scenario: Delete Pages
-    #And I click on Pages
-    #Then Delete Page"Tech 17 Calendar"
-    #And Delete the other "Tech 17 Team"
-    #Then I logout from application
+
