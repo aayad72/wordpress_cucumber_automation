@@ -48,14 +48,19 @@ public class SmokeTestStepsDefinition {
 	public void i_create_a_page() {
 		// dashboard.ClickOnDashboardMenu("Pages");
 
-		dashboard.pages.click();
+		dashboard.ClickOnDashboardMenu("Pages");
 		BrowserUtils.waitFor(5);
 		dashboard.addNewPage.click();
 		dashboard.titlePage.sendKeys("SmokeTestPage");
+		try {
 		Driver.getDriver().switchTo().frame(dashboard.frame);
 		dashboard.textField
 				.sendKeys("this testing is used to decide if a build is stable enough to proceed with further testing");
-		Driver.getDriver().switchTo().parentFrame();
+		Driver.getDriver().switchTo().parentFrame();}
+		catch (Exception e) {
+			dashboard.textField2
+			.sendKeys("this testing is used to decide if a build is stable enough to proceed with further testing");
+		}
 	}
 
 	@When("^I publish the page$")
@@ -86,9 +91,13 @@ public class SmokeTestStepsDefinition {
 		dashboard.ClickOnDashboardMenu("Posts");
 		dashboard.addNewPost.click();
 		dashboard.postTitle.sendKeys("SmokeTestPost");
+		try {
 		Driver.getDriver().switchTo().frame(dashboard.frame);
 		dashboard.textField.sendKeys("this testing is used to decide if a build is stable enough to proceed with further testing");
-		Driver.getDriver().switchTo().parentFrame();
+		Driver.getDriver().switchTo().parentFrame();}
+		catch (Exception e) {
+			dashboard.textField2.sendKeys("this testing is used to decide if a build is stable enough to proceed with further testing");
+		}
 	}
 
 	@Then("^the post should be displayed$")

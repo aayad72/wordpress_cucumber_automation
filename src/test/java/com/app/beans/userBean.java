@@ -4,9 +4,10 @@ package com.app.beans;
 
 public class userBean {
 	
-	String username;
-	String email;
-	String password;
+	private String username;
+	private String email;
+	private String password;
+	
 	public String getUsername() {
 		return username;
 	}

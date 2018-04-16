@@ -1,5 +1,7 @@
 package com.app.pages;
 
+import java.util.ArrayList;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -37,6 +39,9 @@ public class WordPressDashboardPage {
 
 	@FindBy(id ="tinymce")
 	public WebElement textField;
+	
+	@FindBy(xpath="//textarea[@class='wp-editor-area'][@id='content']")
+	public WebElement textField2;
 
 	public WebElement publish;
 
@@ -81,7 +86,16 @@ public class WordPressDashboardPage {
 	
 	@FindBy(id="content_ifr")
 	public WebElement frame;
-
+	
+	public  WebElement user(String str) {
+		
+		return driver.findElement(By.xpath("//a[.='"+str+"']"));
+	}
+	
+	public WebElement email(String str) {
+		return driver.findElement(By.xpath("//a[.='"+str+"']"));
+	}
+	
 	public void logout() {
 		Actions action = new Actions(driver);
 		action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Howdy')]")));
