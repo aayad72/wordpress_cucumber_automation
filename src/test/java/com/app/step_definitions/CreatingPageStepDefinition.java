@@ -41,7 +41,16 @@ public class CreatingPageStepDefinition {
 
 	@Then("^I type on text field$")
 	public void i_type_on_text_field() {
-	   dashboard.typeTextOnPage.sendKeys("Welcome to www.besmart.kg");
+	  
+	   try {
+			Driver.getDriver().switchTo().frame(dashboard.frame);
+			dashboard.textField
+					.sendKeys("Welcome to www.besmart.kg");
+			Driver.getDriver().switchTo().parentFrame();}
+			catch (Exception e) {
+				dashboard.textField2
+				.sendKeys("Welcome to www.besmart.kg");
+			}
 	}
 
 	@Then("^I publish$")

@@ -2,16 +2,10 @@ package com.app.pages;
 
 import java.util.ArrayList;
 
-
-
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.MoveMouseAction;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -29,40 +23,17 @@ public class WordPressDashboardPage {
 
 	@FindBy(xpath = "//div[.='Posts']")
 	public WebElement posts;
-	
-	@FindBy(xpath = "(//a[@href='edit.php'])[2]")
-	public WebElement allPosts;
-	
 	@FindBy(xpath = "//a[@href='post-new.php']")
 	public WebElement addNewPost;
-	
 	@FindBy(id = "title")
 	public WebElement postTitle;
-	
-	@FindBy(id = "content")
-	public WebElement postContent;
-	
-	@FindBy(id = "insert-media-button")
-	public WebElement addMediaOnPost;
-	
-	@FindBy(xpath = "//button[.='Insert into post']")
-	public WebElement insertImage;
-		
 	@FindBy(xpath = "//a[.='View post']")
 	public WebElement ViewPost;
 
-	@FindBy(linkText= "Pages")
-	public WebElement pages1;
-	
 	@FindBy(xpath = "//div[.='Pages']")
 	public WebElement pages;
-	
-	@FindBy(xpath = "//div[.='Pages']")
-	public WebElement allPages;
-		
 	@FindBy(xpath = "//a[@href='post-new.php?post_type=page']")
 	public WebElement addNewPage;
-	
 	@FindBy(id = "title")
 	public WebElement titlePage;
 
@@ -71,45 +42,11 @@ public class WordPressDashboardPage {
 	
 	@FindBy(xpath="//textarea[@class='wp-editor-area'][@id='content']")
 	public WebElement textField2;
-	
-	@FindBy(id="content_ifr")
-	public WebElement typeTextOnPage;
-	
-	@FindBy(id="insert-media-button")
-	public WebElement mediaButtonOnPage;
 
-	@FindBy(xpath = "//a[.='Media Library']")
-	public WebElement mediaLib;
-	
-	@FindBy(xpath="//select[@id='media-attachment-filters']")
-	public WebElement imagesButton;
-	
-	@FindBy(xpath="(//div[@class='thumbnail'])[8]")
-	public WebElement imageSelected;
-	
-	@FindBy(xpath="//*[@id=\"__wp-uploader-id-0\"]/div[5]/div/div[2]/button")
-	public WebElement insertItnoPage;
-	
-
-	@FindBy(partialLinkText = "View page")
-	public WebElement viwePage;
-
-
-
-	
-
-	
-
-
- 
-
-	public WebElement publish; 
-	
-
+	public WebElement publish;
 
 	@FindBy(xpath = "//div[.='Media']")
 	public WebElement media;
-	
 	@FindBy(xpath = "//a[@href='media-new.php']")
 	public WebElement addNewMedia;
 
@@ -124,19 +61,6 @@ public class WordPressDashboardPage {
 
 	@FindBy(xpath = "//div[@class='post-content']//p")
 	public WebElement textBodyInCreatedPage;
-	
-	@FindBy(xpath="//input[@id='doaction']")
-	public WebElement apply;
-	
-	@FindBy(xpath = "//a[.='Move to Trash']")
-	public WebElement moveToTrash;	
-	
-	//@FindBy(xpath = "//select[@id='bulk-action-selector-top']")
-	@FindBy(xpath = "//option[.='Move to Trash']")
-	
-	public WebElement bulkAction;
-	
-	
 	
 	@FindBy(xpath="//a[@href='user-new.php']")
 	public WebElement addNewUser;
@@ -163,6 +87,28 @@ public class WordPressDashboardPage {
 	@FindBy(id="content_ifr")
 	public WebElement frame;
 	
+	@FindBy(id="content_ifr")
+	public WebElement typeTextOnPage;
+	
+	@FindBy(id="insert-media-button")
+	public WebElement mediaButtonOnPage;
+
+	@FindBy(xpath = "//a[.='Media Library']")
+	public WebElement mediaLib;
+	
+	@FindBy(xpath="//select[@id='media-attachment-filters']")
+	public WebElement imagesButton;
+	
+	@FindBy(xpath="(//div[@class='thumbnail'])[8]")
+	public WebElement imageSelected;
+	
+	@FindBy(xpath="//*[@id=\"__wp-uploader-id-0\"]/div[5]/div/div[2]/button")
+	public WebElement insertItnoPage;
+	
+
+	@FindBy(partialLinkText = "View page")
+	public WebElement viwePage;
+	
 	public  WebElement user(String str) {
 		
 		return driver.findElement(By.xpath("//a[.='"+str+"']"));
@@ -171,6 +117,26 @@ public class WordPressDashboardPage {
 	public WebElement email(String str) {
 		return driver.findElement(By.xpath("//a[.='"+str+"']"));
 	}
+	
+	@FindBy(id = "insert-media-button")
+	public WebElement addMediaOnPost;
+	
+	@FindBy(xpath = "//button[.='Insert into post']")
+	public WebElement insertImage;
+		
+	@FindBy(xpath = "(//a[@href='edit.php'])[2]")
+	public WebElement allPosts;
+	
+	@FindBy(xpath = "//option[.='Move to Trash']")
+	public WebElement bulkAction;
+	
+	@FindBy(xpath="//input[@id='doaction']")
+	public WebElement apply;
+	
+	@FindBy(xpath = "//div[.='Pages']")
+	public WebElement allPages;
+		
+	
 	
 	public void logout() {
 		Actions action = new Actions(driver);
@@ -189,32 +155,13 @@ public class WordPressDashboardPage {
 		driver.findElement(By.xpath("//div[@class='wp-menu-name'][contains(text(),'" + str + "')]")).click();
 
 	}
-			
-		
-	public WebElement pageNameToDelete(String str) {
-		return driver.findElement(By.xpath("//a[.='"+str+"']//../../..//input"));
-	}
 	
 	public WebElement postNameToDelete(String str) {
 		return driver.findElement(By.xpath("//a[.='"+str+"']//../../..//input"));
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	public WebElement pageNameToDelete(String str) {
+		return driver.findElement(By.xpath("//a[.='"+str+"']//../../..//input"));
+	}
+
 }

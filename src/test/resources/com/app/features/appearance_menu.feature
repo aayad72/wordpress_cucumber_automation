@@ -1,3 +1,4 @@
+@ikbol
 Feature: Editing the menus
 
   Scenario: Adding new page to menu

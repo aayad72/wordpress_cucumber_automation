@@ -1,40 +1,332 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Comments (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">i click on &quot;All&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verifying how many comments posted (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Comments (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Tech17 reply and send text and reply (FAILED : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on View Post and posting new comment (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">In same page posting new comment (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Appearance&#x2F;Menus (PASSED : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on &quot;Custom Links&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Appearance&#x2F;Menus (PASSED : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I create &quot;Posts&quot; click on check box (PASSED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Appearance&#x2F;Menus (PASSED : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am creating &quot;Pages&quot; click on Smoke Test check box (PASSED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
   </reporter-output>
-  <suite name="SuiteCRM Regression Automation" duration-ms="1499" started-at="2018-04-08T02:39:30Z" finished-at="2018-04-08T02:39:32Z">
+  <suite name="Default suite" duration-ms="126282" started-at="2018-04-16T19:12:48Z" finished-at="2018-04-16T19:14:55Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.SmokeTestRunner@1ce92674]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Automated tests" duration-ms="1499" started-at="2018-04-08T02:39:30Z" finished-at="2018-04-08T02:39:32Z">
-      <class name="com.app.runners.SmokeTestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.SmokeTestRunner@1ce92674]" name="setUpClass" is-config="true" duration-ms="492" started-at="2018-04-08T02:39:30Z" finished-at="2018-04-08T02:39:31Z">
+    <test name="Default test" duration-ms="126282" started-at="2018-04-16T19:12:48Z" finished-at="2018-04-16T19:14:55Z">
+      <class name="com.app.runners.CukesRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="setUpClass" is-config="true" duration-ms="303" started-at="2018-04-16T19:12:48Z" finished-at="2018-04-16T19:12:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.SmokeTestRunner@1ce92674]" name="runScenario" duration-ms="32" started-at="2018-04-08T02:39:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-08T02:39:31Z">
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" duration-ms="10807" started-at="2018-04-16T19:12:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T19:13:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Create Calendar"]]>
+                <![CDATA["Check Comments"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Add Widgets"]]>
+                <![CDATA["Adding comment"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Posted Comments is not matching expected [1] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Posted Comments is not matching expected [1] but found [0]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at com.app.step_definitions.CommentsStepDefenition.verifying_how_many_comments_posted(CommentsStepDefenition.java:40)
+at ✽.Verifying how many comments posted(src/test/resources/com/app/features/adding_a_comment.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Comments (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">i click on &quot;All&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verifying how many comments posted (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" duration-ms="17789" started-at="2018-04-16T19:13:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T19:13:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check Comments"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Adding comment"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@class='comments-edit-item-link'])[1]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-MKO7866', ip: '192.168.12.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\Amine\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 2a97bad5c4f029875ea9c73733882210
+*** Element info: {Using=xpath, value=(//a[@class='comments-edit-item-link'])[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@class='comments-edit-item-link'])[1]"}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-MKO7866', ip: '192.168.12.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\Amine\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 2a97bad5c4f029875ea9c73733882210
+*** Element info: {Using=xpath, value=(//a[@class='comments-edit-item-link'])[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy16.getCoordinates(Unknown Source)
+at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:65)
+at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
+at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
+at com.app.utilities.BrowserUtils.hover(BrowserUtils.java:23)
+at com.app.step_definitions.CommentsStepDefenition.i_click_on_Tech_reply_and_send_text_and_reply(CommentsStepDefenition.java:45)
+at ✽.I click on Tech17 reply and send text and reply(src/test/resources/com/app/features/adding_a_comment.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Comments (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Tech17 reply and send text and reply (FAILED : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on View Post and posting new comment (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">In same page posting new comment (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" duration-ms="29149" started-at="2018-04-16T19:13:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T19:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new page to menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Editing the menus"]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Appearance&#x2F;Menus (PASSED : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on &quot;Custom Links&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.SmokeTestRunner@1ce92674]" name="tearDownClass" is-config="true" duration-ms="524" started-at="2018-04-08T02:39:31Z" finished-at="2018-04-08T02:39:32Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" duration-ms="33915" started-at="2018-04-16T19:13:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T19:14:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new page to menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Editing the menus"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Appearance&#x2F;Menus (PASSED : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I create &quot;Posts&quot; click on check box (PASSED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" duration-ms="34054" started-at="2018-04-16T19:14:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T19:14:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new page to menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Editing the menus"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Appearance&#x2F;Menus (PASSED : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I am creating &quot;Pages&quot; click on Smoke Test check box (PASSED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="tearDownClass" is-config="true" duration-ms="121" started-at="2018-04-16T19:14:54Z" finished-at="2018-04-16T19:14:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.app.runners.SmokeTestRunner -->
-    </test> <!-- Automated tests -->
-  </suite> <!-- SuiteCRM Regression Automation -->
+      </class> <!-- com.app.runners.CukesRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

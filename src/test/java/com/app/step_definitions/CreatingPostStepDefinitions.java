@@ -31,7 +31,15 @@ public class CreatingPostStepDefinitions {
 
 	@Then("^type post on text area$")
 	public void type_post_on_text_area() {
-		dashboard.typeTextOnPage.sendKeys("Today's content is....");
+		//ghdashboard.typeTextOnPage.sendKeys("Today's content is....");
+		
+		try {
+			Driver.getDriver().switchTo().frame(dashboard.frame);
+			dashboard.textField.sendKeys("Today's content is....");
+			Driver.getDriver().switchTo().parentFrame();}
+			catch (Exception e) {
+				dashboard.textField2.sendKeys("Today's content is....");
+			}
 
 	}
 

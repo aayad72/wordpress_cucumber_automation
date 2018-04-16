@@ -1,4 +1,4 @@
-
+@post
 Feature: ADD NEW Post
 
   Scenario: Creating a Post with text
@@ -16,7 +16,7 @@ Feature: ADD NEW Post
     And I click Add Media button
     And I click publish
     Then I logout from application
-  
+    
   Scenario: remove the post
     Given I logged into WordPress
     When I click on Posts

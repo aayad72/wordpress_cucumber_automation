@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 07 11:52:17 EDT 2018</td>
+<td>Started on:</td><td>Mon Apr 16 15:12:48 EDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>43 seconds (43772 ms)</td>
+<tr><td>Total time:</td><td>126 seconds (126282 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,141 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Comments", "Adding comment"<br/>
+<a href="#Output-680150616" onClick='toggleBox("Output-680150616", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-680150616" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-680150616">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Comments (PASSED : 0s)</div><br/>
+<div "result">i click on &quot;All&quot; (PASSED : 0s)</div><br/>
+<div "result">Verifying how many comments posted (FAILED : 0s)</div><br/>
+<div "result">I logout from application (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Posted Comments is not matching expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at com.app.step_definitions.CommentsStepDefenition.verifying_how_many_comments_posted(CommentsStepDefenition.java:40)
+	at ?.Verifying how many comments posted(src/test/resources/com/app/features/adding_a_comment.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace680150616", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace680150616'><pre>java.lang.AssertionError: Posted Comments is not matching expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at com.app.step_definitions.CommentsStepDefenition.verifying_how_many_comments_posted(CommentsStepDefenition.java:40)
+	at ?.Verifying how many comments posted(src/test/resources/com/app/features/adding_a_comment.feature:8)
+</pre></div></td>
+<td>10</td>
+<td>com.app.runners.CukesRunner@1ce92674</td></tr>
+<tr>
+<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Comments", "Adding comment"<br/>
+<a href="#Output-1220813917" onClick='toggleBox("Output-1220813917", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1220813917" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1220813917">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Comments (PASSED : 0s)</div><br/>
+<div "result">I click on Tech17 reply and send text and reply (FAILED : 10s)</div><br/>
+<div "result">I click on View Post and posting new comment (SKIPPED)</div><br/>
+<div "result">In same page posting new comment (SKIPPED)</div><br/>
+<div "result">I logout from application (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;comments-edit-item-link&apos;])[1]&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-MKO7866&apos;, ip: &apos;192.168.12.239&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\Amine\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 2a97bad5c4f029875ea9c73733882210
+*** Element info: {Using=xpath, value=(//a[@class=&apos;comments-edit-item-link&apos;])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getCoordinates(Unknown Source)
+	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:65)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
+	at com.app.utilities.BrowserUtils.hover(BrowserUtils.java:23)
+	at com.app.step_definitions.CommentsStepDefenition.i_click_on_Tech_reply_and_send_text_and_reply(CommentsStepDefenition.java:45)
+	at ?.I click on Tech17 reply and send text and reply(src/test/resources/com/app/features/adding_a_comment.feature:14)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1220813917", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1220813917'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[@class=&apos;comments-edit-item-link&apos;])[1]&quot;}
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-MKO7866&apos;, ip: &apos;192.168.12.239&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\Amine\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 2a97bad5c4f029875ea9c73733882210
+*** Element info: {Using=xpath, value=(//a[@class=&apos;comments-edit-item-link&apos;])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getCoordinates(Unknown Source)
+	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:65)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:43)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:36)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:641)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:594)
+	at com.app.utilities.BrowserUtils.hover(BrowserUtils.java:23)
+	at com.app.step_definitions.CommentsStepDefenition.i_click_on_Tech_reply_and_send_text_and_reply(CommentsStepDefenition.java:45)
+	at ?.I click on Tech17 reply and send text and reply(src/test/resources/com/app/features/adding_a_comment.feature:14)
+</pre></div></td>
+<td>17</td>
+<td>com.app.runners.CukesRunner@1ce92674</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,60 +210,52 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create way more contacts", "Creating Users"<br/>
-<a href="#Output-969811954" onClick='toggleBox("Output-969811954", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding new page to menu", "Editing the menus"<br/>
+<a href="#Output-2097989776" onClick='toggleBox("Output-2097989776", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-969811954" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-969811954">
-<div "result">I logged into WordPress (PASSED : 5s)</div><br/>
-<div "result">I add a new user: (PASSED : 1s)</div><br/>
-<div "result">I should see contact information for &quot;Satoshi Satoshi@test.com&quot; (PASSED : 0s)</div><br/>
+<a href="#Output-2097989776" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2097989776">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Appearance&#x2F;Menus (PASSED : 6s)</div><br/>
+<div "result">I click on &quot;Custom Links&quot; (PASSED : 0s)</div><br/>
+<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
 </div>
 </td>
 <td></td>
-<td>14</td>
+<td>29</td>
 <td>com.app.runners.CukesRunner@1ce92674</td></tr>
 <tr>
-<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create way more contacts", "Creating Users"<br/>
-<a href="#Output-2030458766" onClick='toggleBox("Output-2030458766", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding new page to menu", "Editing the menus"<br/>
+<a href="#Output-1484982263" onClick='toggleBox("Output-1484982263", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2030458766" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2030458766">
-<div "result">I logged into WordPress (PASSED : 5s)</div><br/>
-<div "result">I add a new user: (PASSED : 0s)</div><br/>
-<div "result">I should see contact information for &quot;John John@test.com&quot; (PASSED : 0s)</div><br/>
+<a href="#Output-1484982263" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1484982263">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Appearance&#x2F;Menus (PASSED : 6s)</div><br/>
+<div "result">I create &quot;Posts&quot; click on check box (PASSED : 5s)</div><br/>
+<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
 </div>
 </td>
 <td></td>
-<td>9</td>
+<td>33</td>
 <td>com.app.runners.CukesRunner@1ce92674</td></tr>
 <tr>
-<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create way more contacts", "Creating Users"<br/>
-<a href="#Output-2009591182" onClick='toggleBox("Output-2009591182", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding new page to menu", "Editing the menus"<br/>
+<a href="#Output-2016142571" onClick='toggleBox("Output-2016142571", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2009591182" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2009591182">
-<div "result">I logged into WordPress (PASSED : 5s)</div><br/>
-<div "result">I add a new user: (PASSED : 1s)</div><br/>
-<div "result">I should see contact information for &quot;Rajesh Rajesh@test.com&quot; (PASSED : 0s)</div><br/>
+<a href="#Output-2016142571" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2016142571">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Appearance&#x2F;Menus (PASSED : 6s)</div><br/>
+<div "result">I am creating &quot;Pages&quot; click on Smoke Test check box (PASSED : 5s)</div><br/>
+<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
 </div>
 </td>
 <td></td>
-<td>10</td>
-<td>com.app.runners.CukesRunner@1ce92674</td></tr>
-<tr>
-<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create way more contacts", "Creating Users"<br/>
-<a href="#Output-1004219512" onClick='toggleBox("Output-1004219512", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1004219512" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1004219512">
-<div "result">I logged into WordPress (PASSED : 4s)</div><br/>
-<div "result">I add a new user: (PASSED : 0s)</div><br/>
-<div "result">I should see contact information for &quot;Bonnie Bonnie@test.com&quot; (PASSED : 0s)</div><br/>
-</div>
-</td>
-<td></td>
-<td>9</td>
+<td>34</td>
 <td>com.app.runners.CukesRunner@1ce92674</td></tr>
 </table><p>
 </body>

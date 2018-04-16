@@ -46,6 +46,7 @@ public class WordPressCreateCategoryPage {
 	
 	@FindBy(xpath="//input[@class='button button-primary']")
 	public WebElement update;
+	
 
 	public boolean verifyPage() {
 		if(driver.getCurrentUrl().equals("http://34.223.219.142:1022/wordpress/wp-admin/edit-tags.php?taxonomy=category")&&driver.getTitle().contains("Categories")) {
