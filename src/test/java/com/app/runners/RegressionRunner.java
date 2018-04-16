@@ -13,6 +13,6 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		glue="com/app/step_definitions/",
 		dryRun=false 
 )
-public class RgressionRunner extends AbstractTestNGCucumberTests {
+public class RegressionRunner extends AbstractTestNGCucumberTests {
 
 }

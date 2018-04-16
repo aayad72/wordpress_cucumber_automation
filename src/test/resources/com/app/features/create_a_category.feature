@@ -1,4 +1,4 @@
-@new
+@regression
 Feature: Create A Category
 
   Background: 

@@ -1,4 +1,4 @@
-@ikbol
+@regression
 Feature: Adding comment
 
   Scenario: Check Comments

@@ -1,4 +1,4 @@
-@post
+@regression
 Feature: ADD NEW Post
 
   Scenario: Creating a Post with text

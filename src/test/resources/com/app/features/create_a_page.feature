@@ -1,4 +1,4 @@
-@post
+@regression
 Feature: Page
 
 Scenario: Add Page

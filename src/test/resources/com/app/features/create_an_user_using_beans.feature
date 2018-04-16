@@ -1,4 +1,4 @@
-@beans
+@beans @regression
 Feature: Creating Users
 
   Scenario Outline: Create way more contacts
