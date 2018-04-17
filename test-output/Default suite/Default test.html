@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 16 19:03:28 EDT 2018</td>
+<td>Started on:</td><td>Mon Apr 16 19:52:42 EDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>178 seconds (178677 ms)</td>
+<tr><td>Total time:</td><td>645 seconds (645579 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,36 +75,33 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Image Gall", "Add Widgets"<br/>
-<a href="#Output-128077491" onClick='toggleBox("Output-128077491", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding new page to menu", "Editing the menus"<br/>
+<a href="#Output-1343835789" onClick='toggleBox("Output-1343835789", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-128077491" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-128077491">
-<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
-<div "result">I create a new page (PASSED : 5s)</div><br/>
-<div "result">Set title as &quot;Tech 17 Team&quot; (PASSED : 16s)</div><br/>
-<div "result">I click on Page Builder (PASSED : 22s)</div><br/>
-<div "result">I add Gallery widgets (PASSED : 15s)</div><br/>
-<div "result">Set title &quot;Meet My Team&quot; (PASSED : 5s)</div><br/>
-<div "result">Add on Images (FAILED : 15s)</div><br/>
-<div "result">Publish images in gallery (SKIPPED)</div><br/>
-<div "result">Gallery images should be displayed (SKIPPED)</div><br/>
+<a href="#Output-1343835789" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1343835789">
+<div "result">I logged into WordPress (PASSED : 1s)</div><br/>
+<div "result">I click on Appearance&#x2F;Menus (FAILED : 10s)</div><br/>
+<div "result">I click on &quot;Custom Links&quot; (SKIPPED)</div><br/>
+<div "result">the new menu item should be displayed in Menu Structure (SKIPPED)</div><br/>
 <div "result">I logout from application (SKIPPED)</div><br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;wp-menu-name&apos;][contains(text(),&apos;Appearance&apos;)]&quot;}
   (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-MKO7866&apos;, ip: &apos;192.168.12.239&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+System info: host: &apos;Husnas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:6aa8:6dff:fe11:6312%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\Amine\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: 6d53e0dcded8e54a94d84e59a208f2e8
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/1_/12d2ry2d6lb...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 8d3edc4ed092095ba1331e6ad47a705f
+*** Element info: {Using=xpath, value=//div[@class=&apos;wp-menu-name&apos;][contains(text(),&apos;Appearance&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -113,30 +110,29 @@ Session ID: 6d53e0dcded8e54a94d84e59a208f2e8
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
-	at com.app.step_definitions.WidgetsTestStepDefiniton.add_on_Images(WidgetsTestStepDefiniton.java:109)
-	at ?.Add on Images(src/test/resources/com/app/features/create_widgets.feature:22)
-</pre></div><a href='#' onClick='toggleBox("stack-trace128077491", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace128077491'><pre>org.openqa.selenium.ElementNotVisibleException: element not visible
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at com.app.pages.WordPressDashboardPage.ClickOnDashboardMenu(WordPressDashboardPage.java:155)
+	at com.app.step_definitions.AppearanceMenusStepDefenition.i_click_on_Appearance_Menus(AppearanceMenusStepDefenition.java:23)
+	at ✽.I click on Appearance/Menus(src/test/resources/com/app/features/appearance_menu.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1343835789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1343835789'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;wp-menu-name&apos;][contains(text(),&apos;Appearance&apos;)]&quot;}
   (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
-System info: host: &apos;DESKTOP-MKO7866&apos;, ip: &apos;192.168.12.239&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+System info: host: &apos;Husnas-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:6aa8:6dff:fe11:6312%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\Amine\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: 6d53e0dcded8e54a94d84e59a208f2e8
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/1_/12d2ry2d6lb...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 8d3edc4ed092095ba1331e6ad47a705f
+*** Element info: {Using=xpath, value=//div[@class=&apos;wp-menu-name&apos;][contains(text(),&apos;Appearance&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -145,19 +141,16 @@ Session ID: 6d53e0dcded8e54a94d84e59a208f2e8
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
-	at com.app.step_definitions.WidgetsTestStepDefiniton.add_on_Images(WidgetsTestStepDefiniton.java:109)
-	at ?.Add on Images(src/test/resources/com/app/features/create_widgets.feature:22)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at com.app.pages.WordPressDashboardPage.ClickOnDashboardMenu(WordPressDashboardPage.java:155)
+	at com.app.step_definitions.AppearanceMenusStepDefenition.i_click_on_Appearance_Menus(AppearanceMenusStepDefenition.java:23)
+	at ✽.I click on Appearance/Menus(src/test/resources/com/app/features/appearance_menu.feature:6)
 </pre></div></td>
-<td>86</td>
-<td>com.app.runners.CukesRunner@1ce92674</td></tr>
+<td>13</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -167,24 +160,351 @@ Session ID: 6d53e0dcded8e54a94d84e59a208f2e8
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.app.runners.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create Calendar using Pages", "Add Widgets"<br/>
-<a href="#Output-1160546880" onClick='toggleBox("Output-1160546880", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Comments", "Adding comment"<br/>
+<a href="#Output-1396292525" onClick='toggleBox("Output-1396292525", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1160546880" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1160546880">
+<a href="#Output-1396292525" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1396292525">
 <div "result">I logged into WordPress (PASSED : 4s)</div><br/>
-<div "result">I create a new page (PASSED : 5s)</div><br/>
-<div "result">Set title as &quot;Tech 17 Calendar&quot; (PASSED : 15s)</div><br/>
-<div "result">I click on Page Builder (PASSED : 22s)</div><br/>
-<div "result">I add Calendar Widget (PASSED : 10s)</div><br/>
-<div "result">Publish Calendar Page (PASSED : 7s)</div><br/>
-<div "result">the Calendar should be displayed in Page (PASSED : 6s)</div><br/>
+<div "result">I click on Comments (PASSED : 0s)</div><br/>
+<div "result">i click on &quot;All&quot; (PASSED : 0s)</div><br/>
+<div "result">Verifying how many comments posted (PASSED : 0s)</div><br/>
 <div "result">I logout from application (PASSED : 15s)</div><br/>
 </div>
 </td>
 <td></td>
-<td>91</td>
-<td>com.app.runners.CukesRunner@1ce92674</td></tr>
+<td>24</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check Comments", "Adding comment"<br/>
+<a href="#Output-1465126864" onClick='toggleBox("Output-1465126864", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1465126864" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1465126864">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Comments (PASSED : 0s)</div><br/>
+<div "result">I click on Tech17 reply and send text and reply (PASSED : 0s)</div><br/>
+<div "result">I click on View Post and posting new comment (PASSED : 1s)</div><br/>
+<div "result">In same page posting new comment (PASSED : 0s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding new page to menu", "Editing the menus"<br/>
+<a href="#Output-1167916234" onClick='toggleBox("Output-1167916234", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1167916234" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1167916234">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Appearance&#x2F;Menus (PASSED : 10s)</div><br/>
+<div "result">I create &quot;Posts&quot; click on check box (PASSED : 5s)</div><br/>
+<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding new page to menu", "Editing the menus"<br/>
+<a href="#Output-886343183" onClick='toggleBox("Output-886343183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-886343183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-886343183">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Appearance&#x2F;Menus (PASSED : 9s)</div><br/>
+<div "result">I am creating &quot;Pages&quot; click on Smoke Test check box (PASSED : 5s)</div><br/>
+<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "change theme", "Changing Appearamce"<br/>
+<a href="#Output-1760622380" onClick='toggleBox("Output-1760622380", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1760622380" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1760622380">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Appearance&#x2F;themes (PASSED : 6s)</div><br/>
+<div "result">I am on themes page (PASSED : 2s)</div><br/>
+<div "result">activate new theme (PASSED : 7s)</div><br/>
+<div "result">the new theme should displayed (PASSED : 14s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>50</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Install new theme", "Changing Appearamce"<br/>
+<a href="#Output-1842476600" onClick='toggleBox("Output-1842476600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1842476600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1842476600">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Appearance&#x2F;themes (PASSED : 6s)</div><br/>
+<div "result">I am on themes page (PASSED : 2s)</div><br/>
+<div "result">add new theme (PASSED : 8s)</div><br/>
+<div "result">the new theme should displayed (PASSED : 3s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Put back the default theme", "Changing Appearamce"<br/>
+<a href="#Output-1090160486" onClick='toggleBox("Output-1090160486", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1090160486" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1090160486">
+<div "result">I logged into WordPress (PASSED : 4s)</div><br/>
+<div "result">I click on Appearance&#x2F;themes (PASSED : 9s)</div><br/>
+<div "result">I am on themes page (PASSED : 2s)</div><br/>
+<div "result">I put back the default theme (PASSED : 7s)</div><br/>
+<div "result">the default theme should displayed (PASSED : 3s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "New Category", "Create A Category"<br/>
+<a href="#Output-1906565212" onClick='toggleBox("Output-1906565212", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1906565212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1906565212">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Categories (PASSED : 4s)</div><br/>
+<div "result">Categories page is displayed (PASSED : 1s)</div><br/>
+<div "result">I create a new category (PASSED : 0s)</div><br/>
+<div "result">I should see new category &quot;start&quot; (PASSED : 3s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "New Categories", "Create A Category"<br/>
+<a href="#Output-1974379194" onClick='toggleBox("Output-1974379194", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1974379194" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1974379194">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Categories (PASSED : 4s)</div><br/>
+<div "result">Categories page is displayed (PASSED : 1s)</div><br/>
+<div "result">I create multiple new categories (PASSED : 0s)</div><br/>
+<div "result">I should see new category &quot;newCategory&quot; (PASSED : 3s)</div><br/>
+<div "result">With slug &quot;firstNew&quot; (PASSED : 3s)</div><br/>
+<div "result">With description &quot;first new category in scenario outline&quot; (PASSED : 3s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "New Categories", "Create A Category"<br/>
+<a href="#Output-1213733435" onClick='toggleBox("Output-1213733435", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1213733435" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1213733435">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Categories (PASSED : 4s)</div><br/>
+<div "result">Categories page is displayed (PASSED : 1s)</div><br/>
+<div "result">I create multiple new categories (PASSED : 0s)</div><br/>
+<div "result">I should see new category &quot;nextNew&quot; (PASSED : 3s)</div><br/>
+<div "result">With slug &quot;anotherCategory&quot; (PASSED : 3s)</div><br/>
+<div "result">With description &quot;second new category in scenario outline&quot; (PASSED : 3s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "New Categories", "Create A Category"<br/>
+<a href="#Output-142871704" onClick='toggleBox("Output-142871704", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-142871704" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-142871704">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Categories (PASSED : 4s)</div><br/>
+<div "result">Categories page is displayed (PASSED : 1s)</div><br/>
+<div "result">I create multiple new categories (PASSED : 0s)</div><br/>
+<div "result">I should see new category &quot;lastNewCategory&quot; (PASSED : 3s)</div><br/>
+<div "result">With slug &quot;Category3&quot; (PASSED : 3s)</div><br/>
+<div "result">With description &quot;third new category in scenario outline&quot; (PASSED : 3s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Page", "Page"<br/>
+<a href="#Output-326362094" onClick='toggleBox("Output-326362094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-326362094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-326362094">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Pages (PASSED : 0s)</div><br/>
+<div "result">I click to Add New (PASSED : 2s)</div><br/>
+<div "result">I enter title &quot;Lalafo Page&quot; (PASSED : 0s)</div><br/>
+<div "result">I type on text field (PASSED : 10s)</div><br/>
+<div "result">I publish (PASSED : 2s)</div><br/>
+<div "result">Then I logout from application (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Media Page", "Page"<br/>
+<a href="#Output-904351240" onClick='toggleBox("Output-904351240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-904351240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-904351240">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Pages (PASSED : 0s)</div><br/>
+<div "result">I click to Add New (PASSED : 2s)</div><br/>
+<div "result">I enter title &quot;Lalafo Page&quot; (PASSED : 0s)</div><br/>
+<div "result">I click to Add Media (PASSED : 0s)</div><br/>
+<div "result">I click to Media Library (PASSED : 0s)</div><br/>
+<div "result">I select image (PASSED : 0s)</div><br/>
+<div "result">I publish (PASSED : 1s)</div><br/>
+<div "result">Then I logout from application (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Remove Page", "Page"<br/>
+<a href="#Output-443638755" onClick='toggleBox("Output-443638755", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-443638755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-443638755">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Pages (PASSED : 0s)</div><br/>
+<div "result">I click to All Pages (PASSED : 0s)</div><br/>
+<div "result">I look for given page name &quot;Lalafo Page&quot; (PASSED : 1s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating a Post with text", "ADD NEW Post"<br/>
+<a href="#Output-2139900147" onClick='toggleBox("Output-2139900147", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2139900147" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2139900147">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Post&#x2F;Add New (PASSED : 3s)</div><br/>
+<div "result">I enter post title on title field (PASSED : 0s)</div><br/>
+<div "result">type post on text area (PASSED : 10s)</div><br/>
+<div "result">I click publish (PASSED : 2s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating a post with Media", "ADD NEW Post"<br/>
+<a href="#Output-2079743503" onClick='toggleBox("Output-2079743503", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2079743503" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2079743503">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Post&#x2F;Add New (PASSED : 3s)</div><br/>
+<div "result">I enter post title on title field (PASSED : 0s)</div><br/>
+<div "result">I click Add Media button (PASSED : 1s)</div><br/>
+<div "result">I click publish (PASSED : 2s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "remove the post", "ADD NEW Post"<br/>
+<a href="#Output-1123649342" onClick='toggleBox("Output-1123649342", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1123649342" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1123649342">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I click on Posts (PASSED : 1s)</div><br/>
+<div "result">I click to All Posts (PASSED : 0s)</div><br/>
+<div "result">I look for given post name &quot;Lalafo&quot; (PASSED : 1s)</div><br/>
+<div "result">I logout from application (PASSED : 15s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create way more contacts", "Creating Users"<br/>
+<a href="#Output-1342061890" onClick='toggleBox("Output-1342061890", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1342061890" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1342061890">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I add a new user: (PASSED : 33s)</div><br/>
+<div "result">I should see contact information for &quot;Satoshi Satoshi@test.com&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create way more contacts", "Creating Users"<br/>
+<a href="#Output-340852643" onClick='toggleBox("Output-340852643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-340852643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-340852643">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I add a new user: (PASSED : 45s)</div><br/>
+<div "result">I should see contact information for &quot;John John@test.com&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>50</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create way more contacts", "Creating Users"<br/>
+<a href="#Output-560565850" onClick='toggleBox("Output-560565850", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-560565850" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-560565850">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I add a new user: (PASSED : 33s)</div><br/>
+<div "result">I should see contact information for &quot;Rajesh Rajesh@test.com&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
+<tr>
+<td title='com.app.runners.RegressionRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runners.RegressionRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create way more contacts", "Creating Users"<br/>
+<a href="#Output-748761773" onClick='toggleBox("Output-748761773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-748761773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-748761773">
+<div "result">I logged into WordPress (PASSED : 3s)</div><br/>
+<div "result">I add a new user: (PASSED : 33s)</div><br/>
+<div "result">I should see contact information for &quot;Bonnie Bonnie@test.com&quot; (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>38</td>
+<td>com.app.runners.RegressionRunner@3f49dace</td></tr>
 </table><p>
 </body>
 </html>

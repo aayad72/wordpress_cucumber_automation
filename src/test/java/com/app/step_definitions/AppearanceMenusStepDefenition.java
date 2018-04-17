@@ -20,6 +20,7 @@ public class AppearanceMenusStepDefenition {
 
 	@When("^I click on Appearance/Menus$")
 	public void i_click_on_Appearance_Menus() {
+		BrowserUtils.waitFor(5);
 		dashboard.ClickOnDashboardMenu("Appearance");
 		BrowserUtils.waitFor(5);
 		menuPage.Menus.click();

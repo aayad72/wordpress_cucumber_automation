@@ -1,4 +1,4 @@
-@husna
+@widgets
 Feature: Add Widgets
 
   Background: 
@@ -15,7 +15,7 @@ Feature: Add Widgets
 
   Scenario: Add Image Gall
     And I create a new page
-    Then Set title as "Tech 17 Team"
+    And Set page title as "Tech 17 Team"
     Then I click on Page Builder
     Then I add Gallery widgets
     Then Set title "Meet My Team"

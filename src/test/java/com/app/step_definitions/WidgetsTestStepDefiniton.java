@@ -29,13 +29,12 @@ public class WidgetsTestStepDefiniton {
 		widgets.pages.click();
 		BrowserUtils.waitFor(5);
 
-
 	}
 
 	@Then("^Set title as \"([^\"]*)\"$")
 	public void set_title_as(String arg1) {
 		widgets.addNewPage.click();
-		
+
 		BrowserUtils.waitFor(5);
 		widgets.addNewPage.click();
 		widgets.titlePage.sendKeys("Tech 17 Calendar");
@@ -62,7 +61,7 @@ public class WidgetsTestStepDefiniton {
 	@Then("^Publish Calendar Page$")
 	public void publish_Calendar_Page() {
 		widgets.publishButton.click();
-		BrowserUtils.waitFor(5);
+		BrowserUtils.waitFor(10);
 
 	}
 
@@ -76,6 +75,8 @@ public class WidgetsTestStepDefiniton {
 
 	@Then("^Set page title as \"([^\"]*)\"$")
 	public void set_page_title_as(String arg1) {
+		widgets.addNewPage.click();
+		BrowserUtils.waitFor(5);
 		widgets.titlePage.sendKeys("Tech 17 Team");
 		BrowserUtils.waitFor(5);
 	}
@@ -158,6 +159,5 @@ public class WidgetsTestStepDefiniton {
 		assertTrue(widgets.pageGallery.isDisplayed());
 
 	}
-
 
 }

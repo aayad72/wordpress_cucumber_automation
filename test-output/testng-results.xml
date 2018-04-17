@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="22" passed="21">
   <reporter-output>
     <line>
       <![CDATA[<div "result">I logged into WordPress (PASSED : 4s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I create a new page (PASSED : 5s)</div>]]>
+      <![CDATA[<div "result">I click on Comments (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Set title as &quot;Tech 17 Calendar&quot; (PASSED : 15s)</div>]]>
+      <![CDATA[<div "result">i click on &quot;All&quot; (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on Page Builder (PASSED : 22s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">I add Calendar Widget (PASSED : 10s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">Publish Calendar Page (PASSED : 7s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">the Calendar should be displayed in Page (PASSED : 6s)</div>]]>
+      <![CDATA[<div "result">Verifying how many comments posted (PASSED : 0s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
@@ -29,55 +20,370 @@
       <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I create a new page (PASSED : 5s)</div>]]>
+      <![CDATA[<div "result">I click on Comments (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Set title as &quot;Tech 17 Team&quot; (PASSED : 16s)</div>]]>
+      <![CDATA[<div "result">I click on Tech17 reply and send text and reply (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on Page Builder (PASSED : 22s)</div>]]>
+      <![CDATA[<div "result">I click on View Post and posting new comment (PASSED : 1s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I add Gallery widgets (PASSED : 15s)</div>]]>
+      <![CDATA[<div "result">In same page posting new comment (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Set title &quot;Meet My Team&quot; (PASSED : 5s)</div>]]>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Add on Images (FAILED : 15s)</div>]]>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 1s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Publish images in gallery (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I click on Appearance&#x2F;Menus (FAILED : 10s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Gallery images should be displayed (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I click on &quot;Custom Links&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (SKIPPED)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">I logout from application (SKIPPED)</div>]]>
     </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Appearance&#x2F;Menus (PASSED : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I create &quot;Posts&quot; click on check box (PASSED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Appearance&#x2F;Menus (PASSED : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am creating &quot;Pages&quot; click on Smoke Test check box (PASSED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Appearance&#x2F;themes (PASSED : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am on themes page (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">activate new theme (PASSED : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the new theme should displayed (PASSED : 14s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Appearance&#x2F;themes (PASSED : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am on themes page (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">add new theme (PASSED : 8s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the new theme should displayed (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Appearance&#x2F;themes (PASSED : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I am on themes page (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I put back the default theme (PASSED : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the default theme should displayed (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Categories (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Categories page is displayed (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I create a new category (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see new category &quot;start&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Categories (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Categories page is displayed (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I create multiple new categories (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see new category &quot;newCategory&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">With slug &quot;firstNew&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">With description &quot;first new category in scenario outline&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Categories (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Categories page is displayed (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I create multiple new categories (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see new category &quot;nextNew&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">With slug &quot;anotherCategory&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">With description &quot;second new category in scenario outline&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Categories (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Categories page is displayed (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I create multiple new categories (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see new category &quot;lastNewCategory&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">With slug &quot;Category3&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">With description &quot;third new category in scenario outline&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Pages (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click to Add New (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter title &quot;Lalafo Page&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I type on text field (PASSED : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I publish (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then I logout from application (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Pages (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click to Add New (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter title &quot;Lalafo Page&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click to Add Media (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click to Media Library (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I select image (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I publish (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then I logout from application (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Pages (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click to All Pages (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I look for given page name &quot;Lalafo Page&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Post&#x2F;Add New (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter post title on title field (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">type post on text area (PASSED : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click publish (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Post&#x2F;Add New (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I enter post title on title field (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click Add Media button (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click publish (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Posts (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click to All Posts (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I look for given post name &quot;Lalafo&quot; (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I add a new user: (PASSED : 33s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see contact information for &quot;Satoshi Satoshi@test.com&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I add a new user: (PASSED : 45s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see contact information for &quot;John John@test.com&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I add a new user: (PASSED : 33s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see contact information for &quot;Rajesh Rajesh@test.com&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I add a new user: (PASSED : 33s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see contact information for &quot;Bonnie Bonnie@test.com&quot; (PASSED : 0s)</div>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="178677" started-at="2018-04-16T23:03:28Z" finished-at="2018-04-16T23:06:27Z">
+  <suite name="Default suite" duration-ms="645579" started-at="2018-04-16T23:52:42Z" finished-at="2018-04-17T00:03:28Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="178677" started-at="2018-04-16T23:03:28Z" finished-at="2018-04-16T23:06:27Z">
-      <class name="com.app.runners.CukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="setUpClass" is-config="true" duration-ms="287" started-at="2018-04-16T23:03:29Z" finished-at="2018-04-16T23:03:29Z">
+    <test name="Default test" duration-ms="645579" started-at="2018-04-16T23:52:42Z" finished-at="2018-04-17T00:03:28Z">
+      <class name="com.app.runners.RegressionRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="setUpClass" is-config="true" duration-ms="393" started-at="2018-04-16T23:52:42Z" finished-at="2018-04-16T23:52:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" duration-ms="91544" started-at="2018-04-16T23:03:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:05:00Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="24618" started-at="2018-04-16T23:52:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:53:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Create Calendar using Pages"]]>
+                <![CDATA["Check Comments"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Add Widgets"]]>
+                <![CDATA["Adding comment"]]>
               </value>
             </param>
           </params>
@@ -86,67 +392,96 @@
               <![CDATA[<div "result">I logged into WordPress (PASSED : 4s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I create a new page (PASSED : 5s)</div>]]>
+              <![CDATA[<div "result">I click on Comments (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">Set title as &quot;Tech 17 Calendar&quot; (PASSED : 15s)</div>]]>
+              <![CDATA[<div "result">i click on &quot;All&quot; (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I click on Page Builder (PASSED : 22s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I add Calendar Widget (PASSED : 10s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Publish Calendar Page (PASSED : 7s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">the Calendar should be displayed in Page (PASSED : 6s)</div>]]>
+              <![CDATA[<div "result">Verifying how many comments posted (PASSED : 0s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="runScenario" duration-ms="86615" started-at="2018-04-16T23:05:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:06:27Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="23641" started-at="2018-04-16T23:53:07Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:53:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Add Image Gall"]]>
+                <![CDATA["Check Comments"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Add Widgets"]]>
+                <![CDATA["Adding comment"]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Comments (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Tech17 reply and send text and reply (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on View Post and posting new comment (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">In same page posting new comment (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="13420" started-at="2018-04-16T23:53:31Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:53:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new page to menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Editing the menus"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element not visible
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='wp-menu-name'][contains(text(),'Appearance')]"}
   (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-MKO7866', ip: '192.168.12.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+System info: host: 'Husnas-MacBook-Air.local', ip: 'fe80:0:0:0:6aa8:6dff:fe11:6312%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\Amine\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: 6d53e0dcded8e54a94d84e59a208f2e8]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/1_/12d2ry2d6lb...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 8d3edc4ed092095ba1331e6ad47a705f
+*** Element info: {Using=xpath, value=//div[@class='wp-menu-name'][contains(text(),'Appearance')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='wp-menu-name'][contains(text(),'Appearance')]"}
   (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.543627 (63642262d9fb93fb4ab52398be4286d844092a5e),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+  (Driver info: chromedriver=2.37.543654 (a46b62e9900f5ac48951f8ad68d9e03eded4cc8d),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-MKO7866', ip: '192.168.12.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+System info: host: 'Husnas-MacBook-Air.local', ip: 'fe80:0:0:0:6aa8:6dff:fe11:6312%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543627 (63642262d9fb93..., userDataDir: C:\Users\Amine\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: 6d53e0dcded8e54a94d84e59a208f2e8
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.543654 (a46b62e9900f5a..., userDataDir: /var/folders/1_/12d2ry2d6lb...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 8d3edc4ed092095ba1331e6ad47a705f
+*** Element info: {Using=xpath, value=//div[@class='wp-menu-name'][contains(text(),'Appearance')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -155,57 +490,655 @@ at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttp
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
-at com.app.step_definitions.WidgetsTestStepDefiniton.add_on_Images(WidgetsTestStepDefiniton.java:109)
-at ✽.Add on Images(src/test/resources/com/app/features/create_widgets.feature:22)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at com.app.pages.WordPressDashboardPage.ClickOnDashboardMenu(WordPressDashboardPage.java:155)
+at com.app.step_definitions.AppearanceMenusStepDefenition.i_click_on_Appearance_Menus(AppearanceMenusStepDefenition.java:23)
+at ✽.I click on Appearance/Menus(src/test/resources/com/app/features/appearance_menu.feature:6)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
-              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 1s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I create a new page (PASSED : 5s)</div>]]>
+              <![CDATA[<div "result">I click on Appearance&#x2F;Menus (FAILED : 10s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">Set title as &quot;Tech 17 Team&quot; (PASSED : 16s)</div>]]>
+              <![CDATA[<div "result">I click on &quot;Custom Links&quot; (SKIPPED)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I click on Page Builder (PASSED : 22s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I add Gallery widgets (PASSED : 15s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Set title &quot;Meet My Team&quot; (PASSED : 5s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Add on Images (FAILED : 15s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Publish images in gallery (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Gallery images should be displayed (SKIPPED)</div>]]>
+              <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (SKIPPED)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">I logout from application (SKIPPED)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.CukesRunner@1ce92674]" name="tearDownClass" is-config="true" duration-ms="116" started-at="2018-04-16T23:06:27Z" finished-at="2018-04-16T23:06:27Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="35585" started-at="2018-04-16T23:53:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:54:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new page to menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Editing the menus"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Appearance&#x2F;Menus (PASSED : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I create &quot;Posts&quot; click on check box (PASSED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="34825" started-at="2018-04-16T23:54:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:54:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding new page to menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Editing the menus"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Appearance&#x2F;Menus (PASSED : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I am creating &quot;Pages&quot; click on Smoke Test check box (PASSED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the new menu item should be displayed in Menu Structure (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="50161" started-at="2018-04-16T23:54:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["change theme"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Changing Appearamce"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Appearance&#x2F;themes (PASSED : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I am on themes page (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">activate new theme (PASSED : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the new theme should displayed (PASSED : 14s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="40810" started-at="2018-04-16T23:55:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:56:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Install new theme"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Changing Appearamce"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Appearance&#x2F;themes (PASSED : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I am on themes page (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">add new theme (PASSED : 8s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the new theme should displayed (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="43317" started-at="2018-04-16T23:56:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Put back the default theme"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Changing Appearamce"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Appearance&#x2F;themes (PASSED : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I am on themes page (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I put back the default theme (PASSED : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the default theme should displayed (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="14450" started-at="2018-04-16T23:57:09Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["New Category"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create A Category"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Categories (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Categories page is displayed (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I create a new category (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see new category &quot;start&quot; (PASSED : 3s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="20574" started-at="2018-04-16T23:57:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:57:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["New Categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create A Category"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Categories (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Categories page is displayed (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I create multiple new categories (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see new category &quot;newCategory&quot; (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">With slug &quot;firstNew&quot; (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">With description &quot;first new category in scenario outline&quot; (PASSED : 3s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="19935" started-at="2018-04-16T23:57:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:58:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["New Categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create A Category"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Categories (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Categories page is displayed (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I create multiple new categories (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see new category &quot;nextNew&quot; (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">With slug &quot;anotherCategory&quot; (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">With description &quot;second new category in scenario outline&quot; (PASSED : 3s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="19766" started-at="2018-04-16T23:58:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:58:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["New Categories"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create A Category"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Categories (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Categories page is displayed (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I create multiple new categories (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see new category &quot;lastNewCategory&quot; (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">With slug &quot;Category3&quot; (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">With description &quot;third new category in scenario outline&quot; (PASSED : 3s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="20107" started-at="2018-04-16T23:58:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:58:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Pages (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click to Add New (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter title &quot;Lalafo Page&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I type on text field (PASSED : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I publish (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then I logout from application (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="10799" started-at="2018-04-16T23:58:44Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add Media Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Pages (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click to Add New (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter title &quot;Lalafo Page&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click to Add Media (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click to Media Library (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I select image (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I publish (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then I logout from application (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="22330" started-at="2018-04-16T23:58:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:59:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Remove Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Pages (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click to All Pages (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I look for given page name &quot;Lalafo Page&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="36455" started-at="2018-04-16T23:59:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-16T23:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating a Post with text"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ADD NEW Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Post&#x2F;Add New (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter post title on title field (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">type post on text area (PASSED : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click publish (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="26578" started-at="2018-04-16T23:59:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-17T00:00:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating a post with Media"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ADD NEW Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Post&#x2F;Add New (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I enter post title on title field (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click Add Media button (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click publish (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="23238" started-at="2018-04-17T00:00:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-17T00:00:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["remove the post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["ADD NEW Post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Posts (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click to All Posts (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I look for given post name &quot;Lalafo&quot; (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I logout from application (PASSED : 15s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="38042" started-at="2018-04-17T00:00:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-17T00:01:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create way more contacts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I add a new user: (PASSED : 33s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see contact information for &quot;Satoshi Satoshi@test.com&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="50001" started-at="2018-04-17T00:01:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-17T00:02:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create way more contacts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I add a new user: (PASSED : 45s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see contact information for &quot;John John@test.com&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="38137" started-at="2018-04-17T00:02:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-17T00:02:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create way more contacts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I add a new user: (PASSED : 33s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see contact information for &quot;Rajesh Rajesh@test.com&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="runScenario" duration-ms="38196" started-at="2018-04-17T00:02:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-17T00:03:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create way more contacts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Creating Users"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into WordPress (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I add a new user: (PASSED : 33s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see contact information for &quot;Bonnie Bonnie@test.com&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runners.RegressionRunner@3f49dace]" name="tearDownClass" is-config="true" duration-ms="41" started-at="2018-04-17T00:03:28Z" finished-at="2018-04-17T00:03:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.app.runners.CukesRunner -->
+      </class> <!-- com.app.runners.RegressionRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
