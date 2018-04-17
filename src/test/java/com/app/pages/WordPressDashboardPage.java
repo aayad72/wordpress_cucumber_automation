@@ -59,7 +59,7 @@ public class WordPressDashboardPage {
 	@FindBy(xpath = "//a[.='View page']")
 	public WebElement ViewPage;
 
-	@FindBy(xpath = "//div[@class='post-content']//p")
+	@FindBy(xpath = "//div[@class='entry-content']//p")
 	public WebElement textBodyInCreatedPage;
 	
 	@FindBy(xpath="//a[@href='user-new.php']")
